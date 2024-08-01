@@ -24,7 +24,7 @@ const DataList = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/data');
+      const response = await axios.get('https://rocketium-backend.onrender.com/api/data');
       if (Array.isArray(response.data)) {
         setData(response.data);
         setFilteredData(response.data);
