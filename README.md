@@ -77,6 +77,3 @@ Refer to these documents for comprehensive details on the project structure, com
 By following these instructions, you should be able to set up and run the project successfully. For more detailed information, consult the documentation provided in each directory.
 
 ---
-
-"# assignment" 
-"# react-project" 
