@@ -63,7 +63,7 @@ const DataList = () => {
 
   return (
     <div className="container mt-5">
-      {loading && <div className="alert alert-info">Loading data...</div>}
+      {loading && <div className="alert alert-info">Loading data, Please wait few seconds...</div>}
       {error && <div className="alert alert-danger">{error}</div>}
       <div className="row mb-3">
         <div className="col-md-6 d-flex align-items-center">
